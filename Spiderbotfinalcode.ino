@@ -112,16 +112,6 @@ void setAngle(double q, int n){
   FinalMotorPosition[n]=Q;
 }
 
-void setAngle2(double Q, int n){
-  if(n==1||n==2||n==7||n==11||n==13||n==14)
-    Q=FinalMotorPosition[n]-Q;
-  else
-    Q=FinalMotorPosition[n]+Q;
-  if(Q>180)
-    Q=Q-180;
-  FinalMotorPosition[n]=Q;
-}
-
 void invKin(double px, double py, double pz, int l){
   double R1=sqrt(px*px+py*py)-a1;
   double R2=sqrt(R1*R1+pz*pz);
