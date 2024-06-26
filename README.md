@@ -1,6 +1,8 @@
 # Quadrupled_Spider_Robot-4-legged walking robot
-– Inspired by movement of spiders that can move and navigate on flat surfaces
-– Inverse kinematics and Trajectory planning approach for precise joint angle calcualtion
-– Microcontroller-Arduino(ATmega328P) is employed to control the servo motors
-– Hardware used: Servo Motors,Chassis,Power Supply,Jumper Wires,PCA9685 Servo Motor Driver
-– Tools used:C Programming,Arduino IDE platform
+1)The Quadrupled Spider Robot is a four-legged walking robot inspired by the movement of spiders. It uses servo motors for each leg to achieve precise control and coordinated movement
+
+2)The Adafruit PWM Servo Driver controller is used for managing multiple servo motors. The Spider Bot’s motion and functionality are achieved through a combination of trajectory planning, inverse kinematics, and the coordinated movement of its servo motors
+
+3)Inverse kinematics is employed to calculate the required joint angles for the robot to achieve specific positions or motions. Trajectory planning involves determining the time series of successive joint angles for coordinated leg and body movements
+
+4)The Spider Bot executes a sequence of leg movements, including lifting, swinging, and placing, to achieve forward motion. Coordinated movements of all legs are orchestrated to mimic the walking cycle
